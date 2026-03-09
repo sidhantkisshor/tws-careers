@@ -94,8 +94,8 @@ export default function Hero({ job }: { job: Job }) {
             </span>
           </div>
           <div className="w-px h-10 bg-border-dark max-sm:hidden" />
-          <div className="text-text-light-secondary text-sm leading-relaxed">
-            <span className="font-bold text-soft-sand">{job.salary.detailBold}</span>{' '}
+          <div className="text-text-light-secondary text-xs leading-relaxed opacity-70">
+            <span className="font-semibold text-text-light-secondary">{job.salary.detailBold}</span>{' '}
             {job.salary.detail}
           </div>
         </div>
